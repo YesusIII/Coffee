@@ -26,11 +26,15 @@ header{
     z-index: 1000;
     top: 0;
 }
+
 .toplogo {
     padding-left: 1vw;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    transform: scale(1.2);
+    transition: transform 10s ease;
+    color: hwb(177 0% 0% / 0.815); 
 }
 
 nav{
